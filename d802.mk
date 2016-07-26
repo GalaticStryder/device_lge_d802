@@ -17,7 +17,7 @@
 LOCAL_PATH := device/lge/d802
 
 $(call inherit-product, device/lge/g2-common/common.mk)
-$(call inherit-product, vendor/galbi/d802/d802-vendor.mk)
+$(call inherit-product, vendor/lge/d802/d802-vendor.mk)
 
 ## Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
